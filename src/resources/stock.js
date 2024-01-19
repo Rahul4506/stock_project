@@ -1,16 +1,16 @@
 import { iex } from "../config/iex.js";
 
 const observedHolidays = [
-  new Date("2023-01-02"), // New Year's Day (observed)
-  new Date("2023-01-16"), // Martin Luther King, Jr. Day
-  new Date("2023-02-20"), // Washington's Birthday
-  new Date("2023-04-07"), // Good Friday
-  new Date("2023-05-29"), // Memorial Day
-  new Date("2023-06-19"), // Juneteenth
-  new Date("2023-07-04"), // Independence Day
-  new Date("2023-09-04"), // Labor Day
-  new Date("2023-11-23"), // Thanksgiving Day
-  new Date("2023-12-25"), // Christmas Day
+  new Date("2023-01-02"), 
+  new Date("2023-01-16"), 
+  new Date("2023-02-20"), 
+  new Date("2023-04-07"), 
+  new Date("2023-05-29"), 
+  new Date("2023-06-19"), 
+  new Date("2023-07-04"), 
+  new Date("2023-09-04"), 
+  new Date("2023-11-23"), 
+  new Date("2023-12-25"), 
 ];
 /**
  * function that checks if the date is a valid business day
